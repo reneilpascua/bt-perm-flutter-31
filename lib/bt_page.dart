@@ -100,7 +100,10 @@ class _BluetoothPageState extends State<BluetoothPage> {
                 ),
               ],
             )
-          : const Text('permissions not granted'),
+          : const Text(
+              'permissions initially denied. go to your device\'s settings '
+              'to manage permissions for location and '
+              'bluetooth (or nearby devices).'),
     );
   }
 
